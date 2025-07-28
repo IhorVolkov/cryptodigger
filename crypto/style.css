@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
+.exchange-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.exchange {
+  background: #1e293b;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.exchange img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+.exchange h2 {
+  margin-bottom: 8px;
+}
+.exchange p {
+  font-size: 0.95em;
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #22c55e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.85em;
+  opacity: 0.7;
+}
